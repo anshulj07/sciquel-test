@@ -12,3 +12,8 @@ datasource db {
   url      = env("DATABASE_URL")
 
 }
+model Comment {
+  name    String
+  email   String
+  comment String
+}
